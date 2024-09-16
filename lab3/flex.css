@@ -14,8 +14,8 @@ header, footer{
 
 header img, footer img {
     height: 60%;
-    right: 50%; /* Відступ з правого боку */
-    transform: translateX(-50%); /* Коригує позицію зображення */
+    right: 50%;
+    transform: translateX(-50%); 
 }
 
 main{
@@ -40,6 +40,6 @@ main{
 
 #block1 > div, #block2 > div{
     width: 80%;
-    margin: 20px 20px 20px 70px; /* margin: top right bottom left */
+    margin: 20px 20px 20px 70px; 
 }
 
