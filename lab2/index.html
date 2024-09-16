@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Приклад таблиці</title>
+</head>
+<body>
+
+    <table>
+       
+        <tr class = "row1">
+            <td rowspan="2" colspan="4">Табачук</td>
+            <td colspan="2">Денис</td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr class = "row1">
+            <td colspan="2">Леонідович</td>
+        </tr>
+
+    
+
+        <tr class = "row2">
+            <td colspan="2">ІП-23</td>
+            <td colspan="2" rowspan="2">Лаб №2</td>
+            <td colspan="2" rowspan="2">Варіант 1</td>
+            <td colspan="2" rowspan="2"></td>
+        </tr>
+        <tr class = "row2">
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    
+
+    <div id="traffic-lights">
+        <div class="trafic-light-container">
+            <h3>Без position та transform</h3>
+            <div id="traffic-light-1">
+                <div class="circle red circle-default" ></div>
+                <div class="circle yellow circle-default"></div>
+                <div class="circle green circle-default"></div>
+            </div>       
+        </div>
+      
+        <div class="trafic-light-container">
+            <h3>Position</h3>
+            <div class="traffic-light-2">
+                <div  class = "circle red circle-position" id = "circle-red-position"></div>
+                <div  class = "circle yellow circle-position" id = "circle-yellow-position"></div>
+                <div  class = "circle green circle-position" id = "circle-green-position"></div>
+            </div>
+        </div>
+
+        <div class="trafic-light-container">
+            <h3>Transform</h3>
+            <div class="traffic-light-3">
+                <div  class = "circle red" id = "circle-red-transform"></div>
+                <div  class = "circle yellow" id = "circle-yellow-transform"></div>
+                <div  class = "circle green" id = "circle-green-transform"></div>
+            </div>
+        </div>
+    
+        
+    </div>
+
+</body>
+</html>

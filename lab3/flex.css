@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+    text-align: justify;
+    font: 1.2em sans-serif;
+}
+
+header, footer{
+    background-color: rgb(24, 21, 21);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img, footer img {
+    height: 60%;
+    right: 50%; /* Відступ з правого боку */
+    transform: translateX(-50%); /* Коригує позицію зображення */
+}
+
+main{
+    min-height: 70vh;
+    display: flex;
+}
+
+#block1{
+    background-color: red;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#block2{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+#block1 > div, #block2 > div{
+    width: 80%;
+    margin: 20px 20px 20px 70px; /* margin: top right bottom left */
+}
+

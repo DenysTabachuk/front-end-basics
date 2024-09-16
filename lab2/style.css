@@ -1,0 +1,135 @@
+/* task1 */
+table, td {
+    border: 1px solid black;
+}
+
+table{
+    min-width: 800px;
+}
+
+tr {
+    height: 40px;
+}
+
+td{
+    min-width: 35px;
+}
+
+.row1{
+    background-color: #118f8f ;
+}
+
+.row2{
+    background-color: #f5f511;
+}
+
+.row1:hover ~ .row1, .row1:hover {
+    background-color: #f5f511;
+}
+
+.row2:hover ~ .row2, .row2:hover {
+    background-color: #118f8f ;
+}
+
+
+
+/* task2 */
+
+#traffic-lights{
+    display: flex;
+}
+
+.trafic-light-container{
+    margin: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    border: 2px solid black;
+}
+
+
+/* tl-1 */
+#traffic-light-1{
+    padding: 10px;
+    background-color: rgb(204, 202, 202);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 25px 
+}
+
+.circle-default {
+    margin: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+
+/* tl-2 */
+
+.traffic-light-2 {
+    background-color: #d3d3d3;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    height: 400px;
+    width: 150px;
+}
+
+.circle-position{
+    position: relative;
+    left: 25px;
+    border: 2px solid black;
+}
+
+#circle-red-position{
+    top: 20px;
+}
+
+#circle-yellow-position{
+    top: 40px;
+}
+
+#circle-green-position{
+    top: 60px;
+}
+
+
+/* tl-3 */
+
+.traffic-light-3 {
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 400px;
+    width: 150px;
+}
+
+
+#circle-red-transform{
+    transform: translateX(24px) translateY(20px);
+}
+
+#circle-yellow-transform{
+    transform: translateX(24px) translateY(40px);
+}
+
+#circle-green-transform{
+    transform: translateX(24px) translateY(60px);
+}

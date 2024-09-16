@@ -1,0 +1,81 @@
+#registration-form{
+    padding: 0px 20px 20px 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 450px;
+}
+
+#registration-form h3{
+    text-align: center;
+}
+
+#registration-form input{
+    text-align: center;
+    width: 55%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+form{
+    padding-left: 20px;
+}
+
+.input-and-hint {
+    display: flex;
+    align-items: center; 
+}
+
+input {
+    margin-right: 10px;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+}
+
+#button-container button{
+    margin-left: -50px;
+}
+
+#submit-button{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+  }
+
+
+
+/* task 2 */
+
+table, td {
+    border: 1px solid black;
+}
+
+table{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+}

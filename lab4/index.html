@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, веб-сторінка, навчання, frontend">
+    <meta name="description" content="Це приклад веб-сторінки, створеної для навчання.
+     студентом групи ІП-23 Табачуком Денисом.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ІП-23 Табачук Д.Л.</title>
+</head>
+<body>
+    <!-- 2. Створити 3 абзаци з інформацією про автора сторінки: -->
+    <h2>Табачук Денис Леонідович</h2>
+    <p id = "second-element">17.05.2005 м.Рівне <b>( клацати на цей рядок )</b></p>
+    <p class = "change-on-click">Школа - Гощанський Академічний Ліцей, смт.Гоща<br>
+        НТУУ "КПІ", м.Київ <b>(і цей)</b>
+    </p>
+    <!-- 3. Інформацію про ваше хобі -у вигляді ненумерованого списку (не менше 3-пунктів). -->
+     
+    <h3>Хоббі</h3>
+    <ul>
+        <li>Футбол</li>
+        <li>Відеоігри</li>
+        <li>Фільми</li>
+     </ul>
+     <!-- 4. Три ваших улюблених книги або фільми  у вигляді нумерованого списку. -->
+     <h3>Улюблені фільми</h3>
+     <ol>
+        <li>Острів Проклятих</li>
+        <li>Інстерстеллар</li>
+        <li>Той, хто біжить по лезу 2049</li>
+     </ol>
+     <!-- 5. Абзац з описом самого вподобаного міста, де ви бували. -->
+      <h3>Вподобане місто</h3>
+     <p>Ки́їв — столиця та найбільше місто України.
+        Розташований у середній течії Дніпра, у північній Наддніпрянщині.
+        Політичний, соціально-економічний, транспортний, освітньо-науковий,
+         історичний, культурний та духовний центр України.
+     </p>
+     <!-- 6. Додати фото цього міста. -->
+     <!-- 7. Додати гіперпосилання на це фото з адресою сайту цього міста.   -->
+    <div id="image-container">
+
+        <div class="image-block">
+            
+            <div class="photo-icons">
+                <img class = "icon" id = "decrease-size-icon" src="icons/minus.png" onclick="reduceImage(this)">
+                <img class = "icon" id = "increase-size-icon" src="icons/plus.png"  onclick="enlargeImage(this)">
+                <img class = "icon" id = "delete-icon" src="icons/trash.png" onclick="removeImage(this)">
+            </div>
+    
+            <a href="https://kyivcity.gov.ua">
+                <img class="added-image"
+                 src="https://www.rbc.ua/static/img/k/i/kiev_skyline_beautiful_fiery_sunset_ukraine_monument_motherland_650x410.jpg"
+                  alt="Фото Києва" width="600">  
+             </a>
+        </div>
+     
+
+    </div>
+
+     <div id = "upload-button-container">
+        <button class = "button-9" id = "upload-button">Додати фото</button>
+        <input type="file" id="file-input" accept="image/*">
+    </div>
+
+
+    <script src="script.js"></script>
+    </body>
+</html>
