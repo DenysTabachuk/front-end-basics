@@ -23,11 +23,11 @@ td{
     background-color: #f5f511;
 }
 
-.row1:hover ~ .row1, .row1:hover {
+.row1:hover{
     background-color: #f5f511;
 }
 
-.row2:hover ~ .row2, .row2:hover {
+.row2:hover {
     background-color: #118f8f ;
 }
 
