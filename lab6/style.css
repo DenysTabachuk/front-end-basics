@@ -1,10 +1,24 @@
 body{
     background-color: #bcd5dd;
+    font-size: 1.2rem;
+}
+
+#status-field{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #get-users-button{
     background-color: rgb(84, 84, 167);
-    width: 25%;
+    color: white;
+    font-size: 1.3rem;
+    width: 33%;
     height: 50px;
     border-radius: 50px;
 }
@@ -15,8 +29,6 @@ body{
 }
 
 #users-container{
-    margin-top: 20px;
-
     display: flex;
     flex-wrap: wrap; 
     display: flex;
@@ -24,22 +36,43 @@ body{
 
 .user-profile{
     display: flex;
-    min-width: 400px;
-    width: calc(25% - 20px);
+    width: calc(33% - 10px);
     border: 2px solid #191320;
     margin: 5px;
     background-color: #f7f7f7;
 }
 
-
-
 .user-profile img {
     display: block;
-    width: 140px;
     width: 45%;
 }
 
 .user-text-info {
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 5%;
+    display: block;
+
 }
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .user-profile {
+        width: calc(100% - 10px);
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .user-profile {
+        width: calc(50% - 15px);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .user-profile {
+        width: calc(33% - 10px);
+    }
+  }
